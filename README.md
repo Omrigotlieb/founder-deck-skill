@@ -1,6 +1,8 @@
 # founder-deck-skill
 
-**Turn a messy founder brain-dump into an investor-ready HTML pitch deck.** One agent skill, works with Claude Code, Codex, Gemini CLI and any agent that reads `SKILL.md`.
+**Turn a messy founder brain-dump into an investor-ready HTML pitch deck.** One agent skill, built and tested with Claude Code (it should also work with Codex, Gemini CLI and other agents that read `SKILL.md`, but those are untested).
+
+**[▶ Live example deck](https://omrigotlieb.github.io/founder-deck-skill/examples/lumen-midnight.html)** (arrow keys to navigate)
 
 ![Brain-dump to deck](assets/demo.gif)
 
@@ -42,7 +44,7 @@ node skills/founder-deck/scripts/build.mjs examples/lumen.json deck.html --theme
 
 - Input: [`examples/notes.md`](examples/notes.md) (raw brain-dump)
 - Structured: [`examples/lumen.json`](examples/lumen.json)
-- Output: [`lumen-midnight.html`](examples/lumen-midnight.html) · [`lumen-paper.html`](examples/lumen-paper.html) · [`lumen-sunset.html`](examples/lumen-sunset.html) (download and open in a browser)
+- Output: [`lumen-midnight.html`](examples/lumen-midnight.html) · [`lumen-paper.html`](examples/lumen-paper.html) · [`lumen-sunset.html`](examples/lumen-sunset.html) ([open live](https://omrigotlieb.github.io/founder-deck-skill/))
 
 ## Slide types
 
@@ -50,8 +52,13 @@ node skills/founder-deck/scripts/build.mjs examples/lumen.json deck.html --theme
 
 ## More from me
 
-- [ai-skills](https://github.com/Omrigotlieb/ai-skills): ready-made templates for AI coding agents
-- [awesome-anthropic](https://github.com/Omrigotlieb/awesome-anthropic): curated Anthropic / Claude resources
+- [claude-md-doctor](https://github.com/Omrigotlieb/claude-md-doctor): lint and score your CLAUDE.md out of 100
+- [mcp-solo-founder](https://github.com/Omrigotlieb/mcp-solo-founder): MCP server for running a one-person company
+- [awesome-claude-skills-gallery](https://github.com/Omrigotlieb/awesome-claude-skills-gallery): see what agent skills produce before installing
+- [ai-skills](https://github.com/Omrigotlieb/ai-skills): CLAUDE.md templates, skills, MCP servers and hooks
+- [awesome-anthropic](https://github.com/Omrigotlieb/awesome-anthropic): daily-updated Anthropic / Claude resources
+
+If this is useful, a ⭐ helps other people find it.
 
 ## License
 
