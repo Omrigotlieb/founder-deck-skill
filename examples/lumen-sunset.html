@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumen — Pre-seed deck 2026</title>
+<style>
+:root{--bg:#1a0f14;--fg:#fff4ec;--muted:#d7b3a4;--accent:#ff7a59;--accent2:#ffc65c;--card:#2a1820;--font:system-ui, sans-serif;--head:system-ui, sans-serif}
+*{box-sizing:border-box;margin:0}html,body{height:100%;background:#000;font-family:var(--font);color:var(--fg)}
+.deck{position:fixed;inset:0;display:grid;place-items:center}
+.slide{position:absolute;width:1280px;height:720px;padding:72px 88px;background:var(--bg);display:none;flex-direction:column;overflow:hidden;transform-origin:center}
+.slide.active{display:flex}
+.slide::before{content:"";position:absolute;width:620px;height:620px;right:-220px;top:-260px;border-radius:50%;background:radial-gradient(circle,var(--accent) 0%,transparent 65%);opacity:.18}
+h1,h2,h3{font-family:var(--head);letter-spacing:-.02em}
+h1{font-size:84px;line-height:1.02;margin:18px 0;background:linear-gradient(90deg,var(--fg),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:52px;margin-bottom:28px}h3{font-size:26px;margin-bottom:10px}
+.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:16px;color:var(--accent);font-weight:700}
+.lead{font-size:28px;color:var(--muted);line-height:1.4;max-width:980px;margin-bottom:22px}
+.big{font-size:56px;line-height:1.2;font-weight:700;max-width:1050px;margin-top:16px}
+.big strong,li strong,.lead strong{color:var(--accent)}
+.center{margin:auto 0;display:flex;flex-direction:column;justify-content:center}
+ul{list-style:none;padding:0}li{font-size:28px;line-height:1.35;margin:14px 0;padding-left:36px;position:relative}
+li::before{content:"";position:absolute;left:0;top:13px;width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{background:var(--card);border-radius:20px;padding:30px;border:1px solid color-mix(in srgb,var(--fg) 10%,transparent)}
+.card p,.card li{font-size:20px;color:var(--muted);line-height:1.45}.card li{margin:8px 0;padding-left:26px}.card li::before{width:10px;height:10px;top:9px}
+.num{font-size:60px;font-weight:800;font-family:var(--head);color:var(--accent)}.num.huge{font-size:120px;margin:10px 0}
+.lbl{font-size:20px;color:var(--muted);margin-top:6px}.note{margin-top:26px;font-size:18px;color:var(--muted)}
+.avatar{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:24px;color:var(--bg);background:linear-gradient(135deg,var(--accent),var(--accent2));margin-bottom:16px}
+.meta{margin-top:26px;font-size:20px;color:var(--muted)}
+footer{position:absolute;left:88px;right:88px;bottom:32px;display:flex;justify-content:space-between;font-size:15px;color:var(--muted);opacity:.8}
+.bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);transition:width .25s}
+@media print{@page{size:1280px 720px;margin:0}html,body{background:var(--bg)}.deck{position:static;display:block}.slide{display:flex!important;position:relative;transform:none!important;page-break-after:always}.bar{display:none}}
+</style></head><body data-theme="sunset"><div class="deck">
+<section class="slide s-title" data-i="0"><div class="center"><div class="kicker">Lumen</div><h1>Bookkeeping that does itself</h1><p class="lead">AI bookkeeping, invoicing and tax prep for the 70M+ US freelancers.</p><div class="meta">Dana Levi, CEO · dana@lumen.example</div></div><footer><span>Lumen</span><span>1 / 9</span></footer></section>
+<section class="slide s-statement" data-i="1"><div class="center"><div class="kicker">The problem</div><p class="big">Freelancers lose <strong>5 hours a month</strong> to admin — and still get surprised at tax time.</p></div><footer><span>Lumen</span><span>2 / 9</span></footer></section>
+<section class="slide s-bullets" data-i="2"><h2>Connect once. Lumen handles the rest.</h2><ul><li>Links bank + Stripe, <strong>auto-categorizes</strong> every transaction</li><li>Chases unpaid invoices with polite reminders</li><li>Preps your <strong>quarterly tax estimate</strong> automatically</li><li>$19/mo — a tenth of an accountant</li></ul><footer><span>Lumen</span><span>3 / 9</span></footer></section>
+<section class="slide s-columns" data-i="3"><h2>Why now</h2><div class="grid"><div class="card"><h3>LLMs read the mess</h3><p>Models finally understand cryptic bank memos.</p></div><div class="card"><h3>Open banking</h3><p>EU and US APIs make secure connections cheap.</p></div><div class="card"><h3>Freelance boom</h3><p>70M+ US freelancers, mostly on spreadsheets — or nothing.</p></div></div><footer><span>Lumen</span><span>4 / 9</span></footer></section>
+<section class="slide s-metrics" data-i="4"><h2>Early traction</h2><div class="grid"><div class="card"><div class="num">$6.5k</div><div class="lbl">MRR</div></div><div class="card"><div class="num">18%</div><div class="lbl">month-over-month growth</div></div><div class="card"><div class="num">340</div><div class="lbl">paying beta users</div></div><div class="card"><div class="num">3%</div><div class="lbl">monthly churn</div></div></div><p class="note">Plus 1,200 on the waitlist.</p><footer><span>Lumen</span><span>5 / 9</span></footer></section>
+<section class="slide s-columns" data-i="5"><h2>Built for one-person businesses</h2><div class="grid"><div class="card"><h3>QuickBooks</h3><p>Powerful, but built for accountants.</p></div><div class="card"><h3>Bench</h3><p>Human bookkeepers, $200+/mo.</p></div><div class="card"><h3>Lumen</h3><p>Automatic, simple, <strong>$19/mo</strong>.</p></div></div><footer><span>Lumen</span><span>6 / 9</span></footer></section>
+<section class="slide s-bullets" data-i="6"><h2>Go where freelancers already are</h2><ul><li>Freelancer communities and newsletters</li><li>Upwork / Fiverr creator partnerships</li><li>Short-form <strong>&quot;tax tips&quot;</strong> content on TikTok</li></ul><footer><span>Lumen</span><span>7 / 9</span></footer></section>
+<section class="slide s-team" data-i="7"><h2>Team</h2><div class="grid"><div class="card"><div class="avatar">DL</div><h3>Dana Levi</h3><div class="lbl">CEO</div><p>Ex-Stripe PM, payments &amp; SMB products.</p></div><div class="card"><div class="avatar">YC</div><h3>Yoav Cohen</h3><div class="lbl">CTO</div><p>Ex-Monday ML lead.</p></div></div><footer><span>Lumen</span><span>8 / 9</span></footer></section>
+<section class="slide s-ask" data-i="8"><div class="center"><div class="kicker">The ask</div><div class="num huge">$1.5M</div><p class="lead">Pre-seed · 18 months of runway</p><ul><li>Reach <strong>$50k MRR</strong></li><li>Launch tax filing</li><li>[TODO: hiring plan]</li></ul><div class="meta">dana@lumen.example</div></div><footer><span>Lumen</span><span>9 / 9</span></footer></section>
+</div><div class="bar"></div>
+<!-- generated by founder-deck-skill · github.com/Omrigotlieb/founder-deck-skill · made by the Guti AI team (gutiailabs.com) -->
+<script>
+const S=[...document.querySelectorAll('.slide')],bar=document.querySelector('.bar');let i=Math.min(+(location.hash.slice(1)||1)-1,S.length-1)||0;
+function fit(){const k=Math.min(innerWidth/1280,innerHeight/720);S.forEach(s=>s.style.transform='scale('+k+')')}
+function go(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach((s,j)=>s.classList.toggle('active',j===i));bar.style.width=((i+1)/S.length*100)+'%';history.replaceState(null,'','#'+(i+1))}
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' ','Enter'].includes(e.key))go(i+1);if(['ArrowLeft','PageUp','Backspace'].includes(e.key))go(i-1);if(e.key==='Home')go(0);if(e.key==='End')go(S.length-1);if(e.key==='p')print()});
+addEventListener('click',e=>go(e.clientX>innerWidth/3?i+1:i-1));addEventListener('resize',fit);fit();go(i);
+</script></body></html>

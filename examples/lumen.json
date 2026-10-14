@@ -1,0 +1,11 @@
+{"company":"Lumen","tagline":"Pre-seed deck 2026","theme":"midnight","slides":[
+{"type":"title","title":"Bookkeeping that does itself","subtitle":"AI bookkeeping, invoicing and tax prep for the 70M+ US freelancers.","meta":"Dana Levi, CEO · dana@lumen.example"},
+{"type":"statement","kicker":"The problem","text":"Freelancers lose **5 hours a month** to admin — and still get surprised at tax time."},
+{"type":"bullets","title":"Connect once. Lumen handles the rest.","bullets":["Links bank + Stripe, **auto-categorizes** every transaction","Chases unpaid invoices with polite reminders","Preps your **quarterly tax estimate** automatically","$19/mo — a tenth of an accountant"]},
+{"type":"columns","title":"Why now","columns":[{"title":"LLMs read the mess","text":"Models finally understand cryptic bank memos."},{"title":"Open banking","text":"EU and US APIs make secure connections cheap."},{"title":"Freelance boom","text":"70M+ US freelancers, mostly on spreadsheets — or nothing."}]},
+{"type":"metrics","title":"Early traction","metrics":[{"value":"$6.5k","label":"MRR"},{"value":"18%","label":"month-over-month growth"},{"value":"340","label":"paying beta users"},{"value":"3%","label":"monthly churn"}],"note":"Plus 1,200 on the waitlist."},
+{"type":"columns","title":"Built for one-person businesses","columns":[{"title":"QuickBooks","text":"Powerful, but built for accountants."},{"title":"Bench","text":"Human bookkeepers, $200+/mo."},{"title":"Lumen","text":"Automatic, simple, **$19/mo**."}]},
+{"type":"bullets","title":"Go where freelancers already are","bullets":["Freelancer communities and newsletters","Upwork / Fiverr creator partnerships","Short-form **\"tax tips\"** content on TikTok"]},
+{"type":"team","title":"Team","people":[{"name":"Dana Levi","role":"CEO","bio":"Ex-Stripe PM, payments & SMB products."},{"name":"Yoav Cohen","role":"CTO","bio":"Ex-Monday ML lead."}]},
+{"type":"ask","amount":"$1.5M","text":"Pre-seed · 18 months of runway","bullets":["Reach **$50k MRR**","Launch tax filing","[TODO: hiring plan]"],"contact":"dana@lumen.example"}
+]}
